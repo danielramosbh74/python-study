@@ -11,6 +11,8 @@ numero = int(numeroEmString)
 
 print(type(numero))
 
+print('O dobro do número digitado e já convertido de string para inteiro é: ', numero * 2)
+
 
 # Fonte 2: https://pt.stackoverflow.com/questions/301022/converter-uma-lista-de-string-em-uma-lista-de-n%C3%BAmeros-inteiros
 
