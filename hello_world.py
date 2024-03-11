@@ -9,3 +9,11 @@ Original file is located at
 
 my_name = "World"
 print("Hello " + my_name + "!")
+
+print()
+
+def hello(my_name):
+    return "Hello " + my_name + "!"
+
+print(hello("World"))
+
