@@ -1,18 +1,21 @@
-# Building-a-simple-addition-program-using-flask  
+# API-and-the-most-basic-math-function-with-flask  
+
+## Adapted from: https://github.com/AISangam/Building-a-simple-addition-program-using-flask 
 
 ![Entries_stored](https://user-images.githubusercontent.com/35392729/54876968-79ce1a80-4e3e-11e9-955b-4f49e77896bc.png)
 
-# What does this code provides to you???  
+# What does this code provides to you?  
 <ul>
-  <li>Creating an api using flask microframework.</li>
-  <li>Sending the data from the html page to the database using POST method and python coding</li>
-  <li>Database connectivity with the back end uisng python programming language</li>
+  <li>It creates an api using Flask microframework.</li>
+  <li>It sends the data from the html page to the database using POST method and python coding</li>
+  <li>Database connectivity with the back end using python programming language</li>
   <li> Restricting the entries to the database as unique so as to remove the redundancy in the database.</li>
   <li>Installing phpmyadmin, php, apache2,mysql to save the entries in the database in a graphical user interface format for better visualization</li>
 </ul>  
 
 ## Creating an api using flask microframework  
-Flask is a microframework which is very light weight and is very beneficial for a beginner who wants to create api. To satrt with it we need the module flask which can be imported using the below command
+Flask is a microframework which is very light weight and is very beneficial for a beginner who wants to create api. 
+To start with it we need the module flask which can be imported using the below command
 ```
 from flask import Flask,request
 ```
@@ -22,6 +25,7 @@ pip install flask
 ```
 Concept says that when you enter data at the fronend like in the html page as shown below  
 ![frontend](https://user-images.githubusercontent.com/35392729/54877139-82bfeb80-4e40-11e9-8012-7b8348c9a67c.png)  
+
 This data is redirected to the function created by @app.route which is the functionality of flask using the request method which may be post or get. In this way data is fetched from the front end using python programming language and request method. Please have a look at the below code to understand the concept in more details  
 ```
 @app.route('/add',methods = ['POST'])
@@ -85,6 +89,3 @@ python database_connectivity.py
 ```
 Now open the file frontend.html in the browser and play with the code. I hope you will learn a lot from this ReadMe file. I have elaborated points keeping the begginers in my mind. 
 
-
-  
-  
