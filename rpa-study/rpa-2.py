@@ -35,23 +35,3 @@ pyautogui.hotkey('ctrl', 'c')
 
 time.sleep(5)
 pyautogui.hotkey('ctrl', 'v')
-
-
-# Após mover o mouse até as coordenadas X e Y, e dar 1 clique, o teclado escreverá “Hello World!” no local designado
-# pyautogui. typewrite('Hello World! ')
-
-# Clique no botão "Arquivo" no menu
-# pyautogui.click(x=100, y=100)
-
-
-# Clique em "Abrir" no menu suspenso
-# pyautogui.click(x=100, y=150)
-
-# Espere um segundo
-# time.sleep(1)
-
-# Digite o nome do arquivo a ser aberto
-# pyautogui.write("exemplo.txt")
-
-# Pressione Enter para confirmar
-# pyautogui.press("enter")
