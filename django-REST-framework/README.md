@@ -17,3 +17,4 @@
 
 - Após a execução e os testes, desabilite o ambiente virtual: `deactivate`
 
+Referência: https://www.django-rest-framework.org/tutorial/quickstart/
