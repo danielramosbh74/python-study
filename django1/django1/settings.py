@@ -25,9 +25,10 @@ SECRET_KEY = '%8fc-)n7mn4m%0z(b1(i+dan+ce1rs!u&mt-4xk*^f%q2)nafv'
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG com valor True = modo desenvolvimento
 # DEBUG com valor False = modo produção
-DEBUG = True
-ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = ['django1-gu.herokuapp.com']  # www.geekuniversity.com.br
+DEBUG = False
+
+ALLOWED_HOSTS = ['django1-gu.herokuapp.com']  # www.geekuniversity.com.br
+
 
 # Application definition
 
